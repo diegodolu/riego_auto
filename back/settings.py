@@ -18,8 +18,8 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG')
 
-ALLOWED_HOSTS = ['localhost']
-# CSRF_TRUSTED_ORIGINS = ['localhost:3000']
+ALLOWED_HOSTS = ['localhost','https://riegoauto-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['localhost:3000', 'https://riegoauto-production.up.railway.app/']
 
 
 # Application definition
